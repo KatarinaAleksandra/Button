@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+    The very first application
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Hello World</title>
+</head>
+
+<!--  BEGINS: Page style settings -->
+
+<style>
+    html {
+        font-family: inherit;
+        background-color: inherit;
+    }
+    
+    img {
+        width: 95%;
+    }
+    
+    p {
+        font-size: 1.5em;
+        padding-top: 10px;
+        text-align: middle;
+    }
+</style>
+
+<!--  ENDS: Page style settings -->
+<!--  BEGINS: Content for our application -->
+
+<body class="container text-center">
+
+    <h2>Yosemite</h2>
+    <img src="img/yosemite.jpg">
+	<p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
+
+First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
+  <button id="myButton" type="button" class="btn btn-default btn-lg">When was Yosemite National Park established?</button>
+
+
+</body>
+
+<!--  ENDS: Content for our application  -->
+
+
+<!--  BEGINS: Script block  -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    $("#myButton").click(function() {
+        alert("October 1, 1864");
+    });
+</script>
+<!--  ENDS: Script block  -->
+
+</html>
